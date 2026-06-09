@@ -34,8 +34,10 @@ export default defineConfig({
   },
   themeConfig: {
     nav: [
+      { text: '总论', link: '/总论/' },
       { text: '内科', link: '/内科/' },
-      { text: '外科', link: '/外科/' }
+      { text: '外科', link: '/外科/' },
+      { text: '妇产科', link: '/妇产科/' }
     ],
     sidebar: {
       '/内科/': [
@@ -43,9 +45,7 @@ export default defineConfig({
           text: '概述',
           collapsed: false,
           items: [
-            { text: '跨系统对比', link: '/内科/概述/跨系统对比' },
-            { text: '诊断公式汇总', link: '/内科/概述/诊断公式汇总' },
-            { text: '记忆口诀', link: '/内科/概述/记忆口诀' }
+            { text: '跨系统对比', link: '/内科/概述/跨系统对比' }
           ]
         },
         {
@@ -97,6 +97,13 @@ export default defineConfig({
       ],
       '/外科/': [
         {
+          text: '概述',
+          collapsed: false,
+          items: [
+            { text: '记忆口诀', link: '/外科/概述/记忆口诀' }
+          ]
+        },
+        {
           text: '外科2',
           collapsed: false,
           items: [
@@ -138,6 +145,26 @@ export default defineConfig({
                 { text: '13. 骨肿瘤', link: '/外科/外科2/骨科/13. 骨肿瘤' }
               ]
             }
+          ]
+        }
+      ],
+      '/妇产科/': [
+        {
+          text: '妇产科',
+          collapsed: false,
+          items: [
+            { text: '子宫内膜癌', link: '/妇产科/子宫内膜癌' }
+          ]
+        }
+      ],
+      '/总论/': [
+        {
+          text: '总论',
+          collapsed: false,
+          items: [
+            { text: '跨系统对比', link: '/总论/跨系统对比' },
+            { text: '诊断公式汇总', link: '/总论/诊断公式汇总' },
+            { text: '记忆口诀', link: '/总论/记忆口诀' }
           ]
         }
       ]

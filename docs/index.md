@@ -14,8 +14,18 @@ hero:
     - theme: alt
       text: 外科笔记
       link: /外科/
+    - theme: alt
+      text: 总论
+      link: /总论/
+    - theme: alt
+      text: 妇产科
+      link: /妇产科/
 
 features:
+  - icon: 📖
+    title: 总论
+    details: 跨系统对比、诊断公式汇总、记忆口诀
+    link: /总论/跨系统对比
   - icon: 🫁
     title: 呼吸系统
     details: 内科学总论、肺结核、肺炎、支气管哮喘、COPD、慢性肺源性心脏病、呼吸衰竭、肺癌
@@ -36,8 +46,8 @@ features:
     title: 骨科
     details: 骨折概论、上下肢骨关节损伤、手外伤、脊柱脊髓损伤、股骨头坏死、颈腰椎退变、骨与关节感染、骨肿瘤
     link: /外科/外科2/骨科/1. 骨折概论
-  - icon: 📝
-    title: 跨系统对比
-    details: 易混淆知识点横向对比、鉴别诊断要点、记忆口诀汇总
-    link: /内科/概述/跨系统对比
+  - icon: 🏥
+    title: 妇产科
+    details: 子宫内膜癌等妇产科相关知识点
+    link: /妇产科/子宫内膜癌
 ---
