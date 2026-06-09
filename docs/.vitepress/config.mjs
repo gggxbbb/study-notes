@@ -1,11 +1,37 @@
 import { defineConfig } from 'vitepress'
+import { defineTeekConfig } from 'vitepress-theme-teek/config'
+
+const teekConfig = defineTeekConfig({
+  teekHome: false,
+  vpHome: true,
+  sidebarTrigger: true,
+  codeBlock: {
+    copiedDone: (TkMessage) => TkMessage.success('复制成功！'),
+  },
+  vitePlugins: {
+    sidebarOption: {
+      initItems: false,
+    },
+  },
+})
 
 export default defineConfig({
+  extends: teekConfig,
   title: '医学笔记',
   description: '内科学1、外科学2知识点整理',
   lang: 'zh-CN',
   base: '/',
   lastUpdated: true,
+  markdown: {
+    lineNumbers: true,
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息',
+    },
+  },
   themeConfig: {
     nav: [
       { text: '内科', link: '/内科/' },
@@ -119,6 +145,18 @@ export default defineConfig({
     footer: {
       message: '医学笔记',
       copyright: '2026'
-    }
+    },
+    outline: {
+      level: [2, 4],
+      label: '本页导航',
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页',
+    },
+    darkModeSwitchLabel: '主题',
+    sidebarMenuLabel: '菜单',
+    returnToTopLabel: '返回顶部',
+    lastUpdatedText: '上次更新时间',
   }
 })
