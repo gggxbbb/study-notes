@@ -90,6 +90,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '跨系统对比', link: '/内科/概述/跨系统对比' },
+            { text: '诊断公式汇总', link: '/内科/概述/诊断公式汇总' },
             { text: '记忆口诀', link: '/内科/概述/记忆口诀' }
           ]
         }
