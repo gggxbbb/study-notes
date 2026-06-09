@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://notes.gxb.icu',
+  site: 'https://study-notes.gxb.pub',
   integrations: [
     starlight({
       title: '医学笔记',
