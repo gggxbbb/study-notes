@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { defineTeekConfig } from 'vitepress-theme-teek/config'
 import katex from 'markdown-it-katex'
+import 'katex/dist/contrib/mhchem.js'
 import markdownItPlantUML from 'markdown-it-plantuml'
 
 const teekConfig = defineTeekConfig({
