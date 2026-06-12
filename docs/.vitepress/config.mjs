@@ -37,7 +37,8 @@ export default defineConfig({
       { text: '总论', link: '/总论/' },
       { text: '内科', link: '/内科/' },
       { text: '外科', link: '/外科/' },
-      { text: '妇产科', link: '/妇产科/' }
+      { text: '妇产科', link: '/妇产科/' },
+      { text: '麻醉设备学', link: '/麻醉设备学/' }
     ],
     sidebar: {
       '/内科/': [
@@ -155,6 +156,20 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '子宫内膜癌', link: '/妇产科/子宫内膜癌' }
+          ]
+        }
+      ],
+      '/麻醉设备学/': [
+        {
+          text: '麻醉设备学',
+          collapsed: false,
+          items: [
+            {
+              text: '呼吸机',
+              items: [
+                { text: '常见缩写', link: '/麻醉设备学/呼吸机/常见缩写' }
+              ]
+            }
           ]
         }
       ],
