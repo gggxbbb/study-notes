@@ -169,6 +169,12 @@ export default defineConfig({
               items: [
                 { text: '常见缩写', link: '/麻醉设备学/呼吸机/常见缩写' }
               ]
+            },
+            {
+              text: '麻醉机',
+              items: [
+                { text: '麻醉回路', link: '/麻醉设备学/麻醉机/麻醉回路' }
+              ]
             }
           ]
         }
