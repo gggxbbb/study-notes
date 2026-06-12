@@ -8,8 +8,10 @@
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "^1.6.4",
-    "sass": "^1.89.1"
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-plantuml": "^1.4.1",
+    "sass": "^1.89.1",
+    "vitepress": "^1.6.4"
   },
   "dependencies": {
     "vitepress-theme-teek": "^1.6.0",

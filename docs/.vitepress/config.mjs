@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { defineTeekConfig } from 'vitepress-theme-teek/config'
+import katex from 'markdown-it-katex'
+import markdownItPlantUML from 'markdown-it-plantuml'
 
 const teekConfig = defineTeekConfig({
   teekHome: false,
@@ -22,8 +24,15 @@ export default defineConfig({
   lang: 'zh-CN',
   base: '/',
   lastUpdated: true,
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' }],
+  ],
   markdown: {
     lineNumbers: true,
+    config: (md) => {
+    md.use(katex)
+      md.use(markdownItPlantUML)
+    },
     container: {
       tipLabel: '提示',
       warningLabel: '警告',
