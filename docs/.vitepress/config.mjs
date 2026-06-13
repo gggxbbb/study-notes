@@ -8,7 +8,9 @@ export default defineConfig({
   description: '内科学1、外科学2知识点整理',
   lang: 'zh-CN',
   base: '/',
-  lastUpdated: false,
+  lastUpdated: true,
+  metaChunk: true,
+  mpa: true,
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/katex.min.css' }],
     ['style', {}, `table { display: block; overflow-x: auto; white-space: nowrap; }
