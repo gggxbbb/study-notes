@@ -8,7 +8,7 @@ export default defineConfig({
   description: '内科学1、外科学2知识点整理',
   lang: 'zh-CN',
   base: '/',
-  lastUpdated: true,
+  lastUpdated: false,
   metaChunk: true,
   mpa: true,
   head: [
@@ -56,6 +56,9 @@ export default defineConfig({
         },
       },
     },
+    nav: [
+      { text: '主页', link: '/' }
+    ],
     sidebar: [
       {
         text: '总论',
@@ -232,7 +235,6 @@ export default defineConfig({
       }
     ],
     socialLinks: [],
-    lastUpdatedText: '最后更新：',
     footer: {
       message: '医学笔记',
       copyright: 'Copyright © 2026 gggxbbb · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'

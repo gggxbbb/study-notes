@@ -1,2 +1,0 @@
-[build]
-command = "git fetch --unshallow && npm run build"
