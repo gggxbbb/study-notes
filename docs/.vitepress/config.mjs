@@ -1,26 +1,9 @@
 import { defineConfig } from 'vitepress'
-import { defineTeekConfig } from 'vitepress-theme-teek/config'
 import katex from './markdown-it-katex-custom.js'
 import markdownItPlantUML from 'markdown-it-plantuml'
 import 'katex/dist/contrib/mhchem.mjs'
 
-const teekConfig = defineTeekConfig({
-  teekHome: false,
-  vpHome: true,
-  sidebarTrigger: true,
-  articleUpdate: { enabled: false },
-  codeBlock: {
-    copiedDone: (TkMessage) => TkMessage.success('复制成功！'),
-  },
-  vitePlugins: {
-    sidebarOption: {
-      initItems: false,
-    },
-  },
-})
-
 export default defineConfig({
-  extends: teekConfig,
   title: '医学笔记',
   description: '内科学1、外科学2知识点整理',
   lang: 'zh-CN',
@@ -35,7 +18,7 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
     config: (md) => {
-    md.use(katex)
+      md.use(katex)
       md.use(markdownItPlantUML)
       md.use(markdownItPlantUML, { openMarker: '@startgantt', closeMarker: '@endgantt', diagramName: 'gantt' })
     },
@@ -269,6 +252,5 @@ export default defineConfig({
     darkModeSwitchLabel: '主题',
     sidebarMenuLabel: '菜单',
     returnToTopLabel: '返回顶部',
-    lastUpdatedText: '上次更新时间',
   }
 })
