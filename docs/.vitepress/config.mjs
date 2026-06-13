@@ -8,6 +8,7 @@ const teekConfig = defineTeekConfig({
   teekHome: false,
   vpHome: true,
   sidebarTrigger: true,
+  articleUpdate: { enabled: false },
   codeBlock: {
     copiedDone: (TkMessage) => TkMessage.success('复制成功！'),
   },
@@ -24,7 +25,7 @@ export default defineConfig({
   description: '内科学1、外科学2知识点整理',
   lang: 'zh-CN',
   base: '/',
-  lastUpdated: true,
+  lastUpdated: false,
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/katex.min.css' }],
   ],
@@ -44,6 +45,29 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索',
+                buttonAriaLabel: '搜索文档',
+              },
+              modal: {
+                noResultsText: '未找到相关结果',
+                resetButtonTitle: '清除搜索条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换',
+                },
+              },
+            },
+          },
+        },
+      },
+    },
     nav: [
       { text: '总论', link: '/总论/' },
       { text: '内科', link: '/内科/' },
