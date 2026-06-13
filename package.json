@@ -17,5 +17,10 @@
   "dependencies": {
     "vitepress-theme-teek": "^1.6.0",
     "vue": "^3.5.16"
+  },
+  "overrides": {
+    "markdown-it-katex": {
+      "katex": "^0.17.0"
+    }
   }
 }

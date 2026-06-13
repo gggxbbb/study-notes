@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { defineTeekConfig } from 'vitepress-theme-teek/config'
-import katex from 'markdown-it-katex'
-import 'katex/dist/contrib/mhchem.js'
+import katex from './markdown-it-katex-custom.js'
 import markdownItPlantUML from 'markdown-it-plantuml'
+import 'katex/dist/contrib/mhchem.mjs'
 
 const teekConfig = defineTeekConfig({
   teekHome: false,
@@ -26,13 +26,14 @@ export default defineConfig({
   base: '/',
   lastUpdated: true,
   head: [
-    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/katex.min.css' }],
   ],
   markdown: {
     lineNumbers: true,
     config: (md) => {
     md.use(katex)
       md.use(markdownItPlantUML)
+      md.use(markdownItPlantUML, { openMarker: '@startgantt', closeMarker: '@endgantt', diagramName: 'gantt' })
     },
     container: {
       tipLabel: '提示',
