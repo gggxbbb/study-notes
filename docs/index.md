@@ -8,9 +8,6 @@ hero:
   name: 医学笔记
   text: 内科学 & 外科学 & 麻醉设备学
   tagline: 系统化整理 · 结构化记忆 · 随时查阅
-  image:
-    src: /favicon.svg
-    alt: 医学笔记
   actions:
     - theme: brand
       text: 开始阅读

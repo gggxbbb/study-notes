@@ -11,6 +11,8 @@ export default defineConfig({
   lastUpdated: false,
   metaChunk: true,
   head: [
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'apple-touch-icon', href: '/favicon.svg' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/katex.min.css' }],
     ['style', {}, `table { display: block; overflow-x: auto; white-space: nowrap; }
 .vp-doc table { display: block; overflow-x: auto; white-space: nowrap; }
