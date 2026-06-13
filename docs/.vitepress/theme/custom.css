@@ -1,0 +1,6 @@
+:root {
+  --vp-font-family-base: 'MiSansLatin', 'MiSans', 'PingFang SC', 'Microsoft YaHei',
+    'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  --vp-font-family-mono: 'MiSansLatin', 'MiSans', Menlo, Monaco, Consolas,
+    'Courier New', monospace;
+}
