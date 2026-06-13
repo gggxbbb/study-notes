@@ -177,6 +177,7 @@ export default defineConfig({
           items: [
             { text: '绪论', link: '/麻醉设备学/绪论' },
             { text: '医学仪器基础知识', link: '/麻醉设备学/医学仪器基础知识' },
+            { text: '常考知识点汇总', link: '/麻醉设备学/考试重点' },
             {
               text: '监测仪器',
               items: [
