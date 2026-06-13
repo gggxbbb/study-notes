@@ -60,7 +60,7 @@ export default defineConfig({
     },
     nav: [
       { text: '主页', link: '/' },
-      { text: '总论', link: '/General/CrossSystemComparison' },
+      { text: '总论', link: '/General/MedicalEnglish' },
       { text: '病理生理学', link: '/Pathophysiology/Introduction' },
       { text: '诊断学', link: '/Diagnostics/CommonSymptoms' },
       { text: '麻醉设备学', link: '/AnestheticEquipment/BasicKnowledge' },
@@ -72,9 +72,6 @@ export default defineConfig({
         text: '总论',
         collapsed: false,
         items: [
-          { text: '跨系统对比', link: '/General/CrossSystemComparison' },
-          { text: '诊断公式汇总', link: '/General/DiagnosticFormulas' },
-          { text: '记忆口诀汇总', link: '/General/MemorizationTips' },
           { text: '常见医学英语', link: '/General/MedicalEnglish' }
         ]
       },
@@ -196,7 +193,9 @@ export default defineConfig({
           {
             text: '概述',
             items: [
-              { text: '跨系统对比', link: '/InternalMedicine/Overview/CrossSystemComparison' }
+              { text: '跨系统对比', link: '/InternalMedicine/Overview/CrossSystemComparison' },
+              { text: '诊断公式汇总', link: '/InternalMedicine/Overview/DiagnosticFormulas' },
+              { text: '记忆口诀汇总', link: '/InternalMedicine/Overview/MemorizationTips' }
             ]
           },
           {
@@ -206,7 +205,7 @@ export default defineConfig({
               {
                 text: '呼吸系统',
                 items: [
-                  { text: '内科学总论', link: '/InternalMedicine/Medicine1/Respiratory/MedicineOverview' },
+                  { text: '呼吸系统总论', link: '/InternalMedicine/Medicine1/Respiratory/RespiratoryOverview' },
                   { text: '肺结核', link: '/InternalMedicine/Medicine1/Respiratory/Tuberculosis' },
                   { text: '肺炎', link: '/InternalMedicine/Medicine1/Respiratory/Pneumonia' },
                   { text: '支气管哮喘', link: '/InternalMedicine/Medicine1/Respiratory/Asthma' },

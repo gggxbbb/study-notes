@@ -113,6 +113,9 @@ title: 常见医学英语
 | CK | Creatine Kinase | 肌酸激酶 |
 | CK-MB | Creatine Kinase-MB | 肌酸激酶同工酶-MB |
 | cTnI/cTnT | Cardiac Troponin I/T | 心肌肌钙蛋白I/T |
+| BNP | Brain Natriuretic Peptide | 脑钠肽 |
+| NT-proBNP | N-Terminal pro-BNP | N末端脑钠肽前体 |
+| LVEF | Left Ventricular Ejection Fraction | 左心室射血分数 |
 | INR | International Normalized Ratio | 国际标准化比值 |
 | PT | Prothrombin Time | 凝血酶原时间 |
 | APTT | Activated Partial Thromboplastin Time | 活化部分凝血活酶时间 |
@@ -128,7 +131,32 @@ title: 常见医学英语
 | CT | Computed Tomography | 计算机断层扫描 |
 | PET | Positron Emission Tomography | 正电子发射断层扫描 |
 | USG | Ultrasonography | 超声检查 |
+| TEE | Transesophageal Echocardiography | 经食道超声心动图 |
+| UCG | Echocardiography / Ultrasound Cardiography | 超声心动图 |
+| DSA | Digital Subtraction Angiography | 数字减影血管造影 |
+| AFP | Alpha-Fetoprotein | 甲胎蛋白 |
+| CEA | Carcinoembryonic Antigen | 癌胚抗原 |
+| CA125/CA199 | Cancer Antigen 125/199 | 癌抗原125/199 |
+| PSA | Prostate-Specific Antigen | 前列腺特异性抗原 |
+| NSE | Neuron-Specific Enolase | 神经元特异性烯醇化酶 |
+| MCV | Mean Corpuscular Volume | 平均红细胞体积 |
+| MCH | Mean Corpuscular Hemoglobin | 平均红细胞血红蛋白量 |
+| MCHC | Mean Corpuscular Hemoglobin Concentration | 平均红细胞血红蛋白浓度 |
+| FIB | Fibrinogen | 纤维蛋白原 |
+| PCT | Procalcitonin | 降钙素原 |
+| FPG | Fasting Plasma Glucose | 空腹血糖 |
+| HDL-C | High-Density Lipoprotein Cholesterol | 高密度脂蛋白胆固醇 |
+| LDL-C | Low-Density Lipoprotein Cholesterol | 低密度脂蛋白胆固醇 |
+| ANA | Antinuclear Antibody | 抗核抗体 |
+| GFR | Glomerular Filtration Rate | 肾小球滤过率 |
+| PTH | Parathyroid Hormone | 甲状旁腺激素 |
 | ERCP | Endoscopic Retrograde Cholangiopancreatography | 内镜逆行胰胆管造影 |
+| FVC | Forced Vital Capacity | 用力肺活量 |
+| FEV₁ | Forced Expiratory Volume in 1 second | 第一秒用力呼气量 |
+| PEF | Peak Expiratory Flow | 呼气峰流速 |
+| FRC | Functional Residual Capacity | 功能残气量 |
+| MVV | Maximal Voluntary Ventilation | 最大通气量 |
+| DLCO | Diffusing Capacity for Carbon Monoxide | 肺一氧化碳弥散量 |
 | PFT | Pulmonary Function Test | 肺功能检查 |
 
 ### 3.3 科室与专业
@@ -165,6 +193,11 @@ title: 常见医学英语
 | CVA | Cerebrovascular Accident | 脑血管意外（中风） |
 | TIA | Transient Ischemic Attack | 短暂性脑缺血发作 |
 | SAH | Subarachnoid Hemorrhage | 蛛网膜下腔出血 |
+| SCLC | Small Cell Lung Cancer | 小细胞肺癌 |
+| NSCLC | Non-Small Cell Lung Cancer | 非小细胞肺癌 |
+| PPI | Proton Pump Inhibitor | 质子泵抑制剂（相关病症） |
+| SBP | Spontaneous Bacterial Peritonitis | 自发性细菌性腹膜炎 |
+| DKA | Diabetic Ketoacidosis | 糖尿病酮症酸中毒 |
 | CKD | Chronic Kidney Disease | 慢性肾脏病 |
 | AKI | Acute Kidney Injury | 急性肾损伤 |
 | DM | Diabetes Mellitus | 糖尿病 |
@@ -177,9 +210,19 @@ title: 常见医学英语
 | HBV/HCV | Hepatitis B/C Virus | 乙型/丙型肝炎病毒 |
 | IBD | Inflammatory Bowel Disease | 炎症性肠病 |
 | GERD | Gastroesophageal Reflux Disease | 胃食管反流病 |
+| EGV | Esophageal Gastric Varices | 食管胃底静脉曲张 |
+| EGVB | Esophageal Gastric Variceal Bleeding | 食管胃底静脉曲张出血 |
+| AVB | Atrioventricular Block | 房室传导阻滞 |
 | RA | Rheumatoid Arthritis | 类风湿关节炎 |
 | OA | Osteoarthritis | 骨关节炎 |
 | SLE | Systemic Lupus Erythematosus | 系统性红斑狼疮 |
+| ARF | Acute Renal (Kidney) Failure | 急性肾衰竭 |
+| CRF | Chronic Renal (Kidney) Failure | 慢性肾衰竭 |
+| ALI | Acute Lung Injury | 急性肺损伤 |
+| VAP | Ventilator-Associated Pneumonia | 呼吸机相关性肺炎 |
+| CNS | Central Nervous System | 中枢神经系统 |
+| TNF | Tumor Necrosis Factor | 肿瘤坏死因子 |
+| HP | Helicobacter Pylori | 幽门螺杆菌 |
 
 ### 3.5 治疗与用药
 
@@ -195,8 +238,12 @@ title: 常见医学英语
 | PR | Per Rectum | 直肠给药 |
 | SL | Sublingual | 舌下含服 |
 | ID | Intradermal | 皮内注射 |
-| IT | Intrathecal | 鞘内注射 |
-| PCA | Patient-Controlled Analgesia | 患者自控镇痛 |
+| ACEI | Angiotensin-Converting Enzyme Inhibitor | 血管紧张素转化酶抑制剂 |
+| ARB | Angiotensin Receptor Blocker | 血管紧张素受体阻滞剂 |
+| ARNI | Angiotensin Receptor-Neprilysin Inhibitor | 血管紧张素受体脑啡肽酶抑制剂 |
+| ADH | Antidiuretic Hormone | 抗利尿激素 |
+| RAAS | Renin-Angiotensin-Aldosterone System | 肾素-血管紧张素-醛固酮系统 |
+| ANP | Atrial Natriuretic Peptide | 心房钠尿肽 |
 | TPN | Total Parenteral Nutrition | 全肠外营养 |
 | EN | Enteral Nutrition | 肠内营养 |
 | NG Tube | Nasogastric Tube | 鼻胃管 |
@@ -230,6 +277,17 @@ title: 常见医学英语
 | MAC | Minimum Alveolar Concentration | 最低肺泡有效浓度 |
 | NIBP | Non-Invasive Blood Pressure | 无创血压 |
 | ABP | Arterial Blood Pressure (invasive) | 有创动脉血压 |
+| IBP | Invasive Blood Pressure | 有创血压监测 |
+| CPB | Cardiopulmonary Bypass | 体外循环 |
+| TCI | Target-Controlled Infusion | 靶浓度控制输注 |
+| EMG | Electromyography | 肌电图 |
+| FGF | Fresh Gas Flow | 新鲜气体流量 |
+| CMV | Controlled Mechanical Ventilation | 控制机械通气 |
+| IPPV | Intermittent Positive Pressure Ventilation | 间歇正压通气 |
+| CPAP | Continuous Positive Airway Pressure | 持续气道正压通气 |
+| BiPAP | Bilevel Positive Airway Pressure | 双水平气道正压通气 |
+| HFNC | High-Flow Nasal Cannula | 经鼻高流量氧疗 |
+| NIV/NPPV | Non-Invasive Ventilation / Positive Pressure Ventilation | 无创通气 |
 
 ### 3.7 常用医嘱缩写
 
