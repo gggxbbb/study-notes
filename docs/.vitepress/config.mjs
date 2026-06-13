@@ -239,9 +239,10 @@ export default defineConfig({
       ]
     },
     socialLinks: [],
+    lastUpdatedText: '最后更新：',
     footer: {
       message: '医学笔记',
-      copyright: '2026'
+      copyright: 'Copyright © 2026 gggxbbb · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'
     },
     outline: {
       level: [2, 4],
