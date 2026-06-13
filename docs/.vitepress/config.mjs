@@ -10,7 +10,6 @@ export default defineConfig({
   base: '/',
   lastUpdated: false,
   metaChunk: true,
-  mpa: true,
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/katex.min.css' }],
     ['style', {}, `table { display: block; overflow-x: auto; white-space: nowrap; }
