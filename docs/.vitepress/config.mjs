@@ -74,7 +74,8 @@ export default defineConfig({
         items: [
           { text: '跨系统对比', link: '/General/CrossSystemComparison' },
           { text: '诊断公式汇总', link: '/General/DiagnosticFormulas' },
-          { text: '记忆口诀汇总', link: '/General/MemorizationTips' }
+          { text: '记忆口诀汇总', link: '/General/MemorizationTips' },
+          { text: '常见医学英语', link: '/General/MedicalEnglish' }
         ]
       },
       {
