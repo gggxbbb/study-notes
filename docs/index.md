@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 总论
-      link: /General/CrossSystemComparison
+      link: /General/MedicalEnglish
     - theme: alt
       text: 病理生理学
       link: /Pathophysiology/Introduction
