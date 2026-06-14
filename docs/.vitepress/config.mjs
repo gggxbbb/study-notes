@@ -149,7 +149,6 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '医学仪器基础知识', link: '/AnestheticEquipment/BasicKnowledge' },
-          { text: '麻醉机', link: '/AnestheticEquipment/AnesthesiaMachineMain' },
           { text: '常考知识点汇总', link: '/AnestheticEquipment/ExamKeyPoints' },
           {
             text: '监测仪器',
@@ -181,6 +180,7 @@ export default defineConfig({
           {
             text: '麻醉机',
             items: [
+              { text: '麻醉机总论', link: '/AnestheticEquipment/AnesthesiaMachineMain' },
               { text: '麻醉回路', link: '/AnestheticEquipment/AnesthesiaMachine/AnesthesiaCircuit' }
             ]
           }
