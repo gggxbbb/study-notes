@@ -4,10 +4,14 @@
 
 | 缩写 | 全称 | 说明 |
 |------|------|------|
+| IPPV | Intermittent Positive Pressure Ventilation | 间歇正压通气：最基本的机械通气模式 |
+| INPV | Intermittent Negative Pressure Ventilation | 体外间歇负压通气：早期铁肺 |
+| PNPV | Positive-Negative Pressure Ventilation | 正负压通气：正负压交替 |
 | FVS | Full Ventilation Support | 完全通气支持：每次吸气通气机都提供气流，有创通气范畴 |
 | PVS | Partial Ventilation Support | 部分通气支持：并非每次吸气都提供气流，无创，必须有自主呼吸 |
 | CMV | Continuous Mandatory Ventilation | 持续强制通气；也常指 AC 模式 |
 | AC / A/C | Assist-Control | 辅助-控制通气：患者触发则辅助，无触发则按设定频率控制送气 |
+| IMV | Intermittent Mandatory Ventilation | 间歇指令通气：按固定间隔强制送气，易发生人机对抗 |
 | SIMV | Synchronized Intermittent Mandatory Ventilation | 同步间歇指令通气：指令通气+自主呼吸 |
 | VCV / VC | Volume-Controlled Ventilation | 容量控制通气：潮气量恒定，压力随顺应性变化 |
 | PCV / PC | Pressure-Controlled Ventilation | 压力控制通气：送气压力恒定，潮气量随顺应性变化 |
@@ -22,10 +26,14 @@
 | P-SIMV | Pressure-SIMV | 压力目标的 SIMV |
 | V-SIMV | Volume-SIMV | 容量目标的 SIMV |
 | MMV | Mandatory Minute Ventilation | 指令分钟通气量：保证最低分钟通气量 |
-| AMV | Adaptive Mechanical Ventilation | 适应性机械通气 |
+| AMV | Assisted Mandatory Ventilation | 辅助通气：由患者触发，通气机提供潮气量和吸气动力（注意：非 Adaptive Mechanical Ventilation） |
 | PLV | Pressure Limited Ventilation | 压力限定通气：传统定压控制通气，又称容量可变模式 |
 | VSV | Volume Support Ventilation | 容量支持通气：PSV的智能化版本，自动调节支持水平以达到目标潮气量 |
 | CPPV | Continuous Positive Pressure Ventilation | 持续正压通气：在IPPV基础上加PEEP |
+| HFV | High Frequency Ventilation | 高频通气：60~3600bpm，潮气量小 |
+| HFPPV | High Frequency Positive Pressure Ventilation | 高频正压通气：60~150bpm，Vt 3~5ml/kg |
+| HFJV | High Frequency Jet Ventilation | 高频喷射通气：60~300bpm，射流卷吸取气 |
+| HFOV | High Frequency Oscillatory Ventilation | 高频振荡通气：300~3600bpm（5~60Hz），主动吸气和呼气 |
 | S/T | Spontaneous/Timed | 同步/定时模式：即A/CMV，患者触发则辅助，无触发则按设定频率控制 |
 | IRV | Inverse Ratio Ventilation | 反比通气：吸呼比＞1，延长吸气时间改善氧合 |
 | Sigh | — | 叹息：长时间控制通气中模拟打呵欠的深呼吸功能 |
@@ -112,6 +120,7 @@
 | ROX | Respiratory Rate-Oxygenation Index | ROX 指数 = $SpO_2/FiO_2 / RR$，HFNC 预后指标 |
 | SOFA | Sequential Organ Failure Assessment | 序贯器官衰竭评分 |
 | AARC | American Association for Respiratory Care | 美国呼吸治疗协会：提出通气机报警三分法（一类即刻致命、二类潜在威胁、三类不危及生命） |
+| ISO 9703 | — | 国际标准报警分级：按严重程度分严重/中度/轻微，按紧急程度分立即/即时/延时 |
 
 ## 六、口诀速记
 
