@@ -76,6 +76,13 @@ export default defineConfig({
         ]
       },
       {
+        text: '西医综合',
+        collapsed: false,
+        items: [
+          { text: '考情分析', link: '/ComprehensiveExam/ExamOverview' }
+        ]
+      },
+      {
         text: '人体系统解剖学',
         collapsed: true,
         items: []
