@@ -77,14 +77,14 @@ for(var i=0;i<wrappers.length;i++){
     sidebar: [
       {
         text: '总论',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '常见医学英语', link: '/General/MedicalEnglish' }
         ]
       },
       {
         text: '西医综合',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '考情分析', link: '/ComprehensiveExam/ExamOverview' },
           { text: '卫生法知识点', link: '/ComprehensiveExam/HealthLaw' }
@@ -218,7 +218,7 @@ for(var i=0;i<wrappers.length;i++){
           },
           {
             text: '内科1',
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: '呼吸系统',
@@ -278,7 +278,7 @@ for(var i=0;i<wrappers.length;i++){
           },
           {
             text: '外科1',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: '水电解质代谢紊乱', link: '/Surgery/Surgery1/WaterElectrolyteBalance' },
               { text: '外科感染', link: '/Surgery/Surgery1/Infection' },
@@ -293,7 +293,7 @@ for(var i=0;i<wrappers.length;i++){
           },
           {
             text: '外科2',
-            collapsed: false,
+            collapsed: true,
             items: [
               {
                 text: '普外科',
