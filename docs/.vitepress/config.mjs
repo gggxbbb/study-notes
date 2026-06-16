@@ -15,9 +15,16 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
     ['link', { rel: 'apple-touch-icon', href: '/favicon.svg' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/katex.min.css' }],
-    ['style', {}, `table { display: block; overflow-x: auto; white-space: nowrap; }
-.vp-doc table { display: block; overflow-x: auto; white-space: nowrap; }
+    ['style', {}, `table { display: block; overflow-x: auto; }
+.vp-doc table { display: block; overflow-x: auto; }
 .vp-doc .vp-table-wrapper { overflow-x: auto; }`],
+    ['script', {}, `document.addEventListener('DOMContentLoaded',function(){
+var wrappers=document.querySelectorAll('.vp-doc .vp-table-wrapper');
+for(var i=0;i<wrappers.length;i++){
+  var w=wrappers[i],t=w.querySelector('table');
+  if(t&&t.scrollWidth>w.clientWidth+1)t.style.whiteSpace='nowrap';
+}
+});`],
   ],
   markdown: {
     lineNumbers: true,
