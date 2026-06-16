@@ -20,7 +20,7 @@ hero:
       link: /Diagnostics/CommonSymptoms
     - theme: alt
       text: 内科
-      link: /InternalMedicine/Medicine1/Respiratory/MedicineOverview
+      link: /InternalMedicine/Medicine1/Respiratory/RespiratoryOverview
     - theme: alt
       text: 外科
       link: /Surgery/Surgery2/GeneralSurgery/BreastDisease
