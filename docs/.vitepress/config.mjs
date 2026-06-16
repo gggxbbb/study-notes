@@ -79,7 +79,8 @@ export default defineConfig({
         text: '西医综合',
         collapsed: false,
         items: [
-          { text: '考情分析', link: '/ComprehensiveExam/ExamOverview' }
+          { text: '考情分析', link: '/ComprehensiveExam/ExamOverview' },
+          { text: '卫生法知识点', link: '/ComprehensiveExam/HealthLaw' }
         ]
       },
       {
@@ -143,13 +144,16 @@ export default defineConfig({
           { text: '病历书写', link: '/Diagnostics/MedicalRecord' },
           { text: '诊断思维', link: '/Diagnostics/DiagnosticThinking' },
           { text: '临床血液学检测', link: '/Diagnostics/LabDiagnosis' },
-          { text: '实验诊断QRH（精简版）', link: '/Diagnostics/LabDiagnosisQrh' }
+          { text: '实验诊断QRH（精简版）', link: '/Diagnostics/LabDiagnosisQrh' },
+          { text: '水电解质代谢紊乱', link: '/Diagnostics/WaterElectrolyte' }
         ]
       },
       {
         text: '麻醉药理学',
         collapsed: true,
-        items: []
+        items: [
+          { text: '药理学口诀', link: '/AnestheticPharmacology/Mnemonics' }
+        ]
       },
       {
         text: '麻醉设备学',
@@ -263,6 +267,21 @@ export default defineConfig({
             text: '概述',
             items: [
               { text: '外科概述', link: '/Surgery/Overview/MemorizationTips' }
+            ]
+          },
+          {
+            text: '外科1',
+            collapsed: false,
+            items: [
+              { text: '水电解质代谢紊乱', link: '/Surgery/Surgery1/WaterElectrolyteBalance' },
+              { text: '外科感染', link: '/Surgery/Surgery1/Infection' },
+              { text: '烧伤与冻伤', link: '/Surgery/Surgery1/Burns' },
+              { text: '创伤', link: '/Surgery/Surgery1/Trauma' },
+              { text: '肿瘤', link: '/Surgery/Surgery1/Tumors' },
+              { text: '移植', link: '/Surgery/Surgery1/Transplant' },
+              { text: '外科营养', link: '/Surgery/Surgery1/Nutrition' },
+              { text: '围术期处理', link: '/Surgery/Surgery1/Perioperative' },
+              { text: '休克', link: '/Surgery/Surgery1/Shock' }
             ]
           },
           {
