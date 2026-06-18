@@ -4,14 +4,14 @@ title: 内科
 
 # 内科
 
-## 概述
+## 内科1（呼吸+循环+消化）
 
-- [跨系统对比](/General/crossSystemComparison)
-- [诊断公式汇总](/General/diagnosticFormulas)
-- [记忆口诀](/General/memorizationTips)
+- [呼吸系统](Medicine1/Respiratory/)
+- [循环系统](Medicine1/Circulatory/)
+- [消化系统](Medicine1/Digestive/)
 
-## 内科 1
+## 汇总
 
-- [呼吸系统](内科1/呼吸系统/)
-- [循环系统](内科1/循环系统/)
-- [消化系统](内科1/消化系统/)
+- [跨系统对比](Overview/CrossSystemComparison)
+- [诊断公式汇总](Overview/DiagnosticFormulas)
+- [记忆口诀](Overview/MemorizationTips)

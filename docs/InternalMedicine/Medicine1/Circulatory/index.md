@@ -1,14 +1,12 @@
 ---
-
-
 title: 循环系统
 ---
 
 # 循环系统
 
-## 房室传导阻滞口诀
-
-- 一度房室传导阻滞：每天回家的时间比平时晚（PR间期延长）
-- 二度Ⅰ型房室传导阻滞：每天回来的时间越来越晚，突然有一天不回家（PR间期逐渐延长，直至QRS脱落）
-- 二度Ⅱ型房室传导阻滞：平时正常，毫无征兆的突然不回家（PR间期固定，间歇性QRS脱落）
-- 三度房室传导阻滞：你过你的我过我的（P波与QRS波完全无关）
+- [心力衰竭](HeartFailure)
+- [心律失常](Arrhythmia)
+- [动脉粥样硬化和冠心病](CoronaryHeartDisease)
+- [高血压](Hypertension)
+- [心肌疾病](MyocarditisCardiomyopathy)
+- [心脏瓣膜病](ValvularHeartDisease)
