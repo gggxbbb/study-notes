@@ -71,8 +71,8 @@ for(var i=0;i<wrappers.length;i++){
       { text: '病理生理学', link: '/Pathophysiology/Introduction' },
       { text: '诊断学', link: '/Diagnostics/CommonSymptoms' },
       { text: '麻醉设备学', link: '/AnestheticEquipment/BasicKnowledge' },
-      { text: '内科学', link: '/InternalMedicine/Overview/CrossSystemComparison' },
-      { text: '外科学', link: '/Surgery/Overview/MemorizationTips' }
+      { text: '内科学', link: '/InternalMedicine/Medicine1/Respiratory/' },
+      { text: '外科学', link: '/Surgery/Surgery2/' }
     ],
     sidebar: [
       {
@@ -224,41 +224,40 @@ for(var i=0;i<wrappers.length;i++){
                 text: '呼吸系统',
                 items: [
                   { text: '呼吸系统总论', link: '/InternalMedicine/Medicine1/Respiratory/RespiratoryOverview' },
-                  { text: '肺结核', link: '/InternalMedicine/Medicine1/Respiratory/Tuberculosis' },
-                  { text: '肺炎', link: '/InternalMedicine/Medicine1/Respiratory/Pneumonia' },
+                  { text: '慢性阻塞性肺疾病', link: '/InternalMedicine/Medicine1/Respiratory/Copd' },
                   { text: '支气管哮喘', link: '/InternalMedicine/Medicine1/Respiratory/Asthma' },
-                  { text: 'COPD', link: '/InternalMedicine/Medicine1/Respiratory/Copd' },
-                  { text: '慢性肺源性心脏病', link: '/InternalMedicine/Medicine1/Respiratory/ChronicPulmonaryHeartDisease' },
-                  { text: '呼吸衰竭', link: '/InternalMedicine/Medicine1/Respiratory/RespiratoryFailure' },
+                  { text: '支气管扩张症', link: '/InternalMedicine/Medicine1/Respiratory/Bronchiectasis' },
+                  { text: '肺炎', link: '/InternalMedicine/Medicine1/Respiratory/Pneumonia' },
+                  { text: '肺脓肿', link: '/InternalMedicine/Medicine1/Respiratory/LungAbscess' },
+                  { text: '肺结核', link: '/InternalMedicine/Medicine1/Respiratory/Tuberculosis' },
                   { text: '肺癌', link: '/InternalMedicine/Medicine1/Respiratory/LungCancer' },
-                  { text: '支气管扩张', link: '/InternalMedicine/Medicine1/Respiratory/Bronchiectasis' }
+                  { text: '肺动脉高压与肺源性心脏病', link: '/InternalMedicine/Medicine1/Respiratory/ChronicPulmonaryHeartDisease' },
+                  { text: '胸膜疾病', link: '/InternalMedicine/Medicine1/Respiratory/PleuralDisease' },
+                  { text: '呼吸衰竭', link: '/InternalMedicine/Medicine1/Respiratory/RespiratoryFailure' }
                 ]
               },
               {
                 text: '循环系统',
                 items: [
-                  { text: '心瓣膜病', link: '/InternalMedicine/Medicine1/Circulatory/ValvularHeartDisease' },
-                  { text: '心包疾病', link: '/InternalMedicine/Medicine1/Circulatory/PericardialDisease' },
-                  { text: '心肌炎与心肌病', link: '/InternalMedicine/Medicine1/Circulatory/MyocarditisCardiomyopathy' },
-                  { text: '感染性心内膜炎', link: '/InternalMedicine/Medicine1/Circulatory/InfectiveEndocarditis' },
-                  { text: '高血压', link: '/InternalMedicine/Medicine1/Circulatory/Hypertension' },
                   { text: '心力衰竭', link: '/InternalMedicine/Medicine1/Circulatory/HeartFailure' },
-                  { text: '冠心病', link: '/InternalMedicine/Medicine1/Circulatory/CoronaryHeartDisease' },
-                  { text: '心律失常', link: '/InternalMedicine/Medicine1/Circulatory/Arrhythmia' }
+                  { text: '心律失常', link: '/InternalMedicine/Medicine1/Circulatory/Arrhythmia' },
+                  { text: '动脉粥样硬化和冠心病', link: '/InternalMedicine/Medicine1/Circulatory/CoronaryHeartDisease' },
+                  { text: '高血压', link: '/InternalMedicine/Medicine1/Circulatory/Hypertension' },
+                  { text: '心肌疾病', link: '/InternalMedicine/Medicine1/Circulatory/MyocarditisCardiomyopathy' },
+                  { text: '心脏瓣膜病', link: '/InternalMedicine/Medicine1/Circulatory/ValvularHeartDisease' }
                 ]
               },
               {
                 text: '消化系统',
                 items: [
                   { text: '消化系统概述', link: '/InternalMedicine/Medicine1/Digestive/Overview' },
-                  { text: '急性胃炎与慢性胃炎', link: '/InternalMedicine/Medicine1/Digestive/Gastritis' },
+                  { text: '胃炎', link: '/InternalMedicine/Medicine1/Digestive/Gastritis' },
                   { text: '消化性溃疡', link: '/InternalMedicine/Medicine1/Digestive/PepticUlcer' },
-                  { text: '肝硬化', link: '/InternalMedicine/Medicine1/Digestive/Cirrhosis' },
-                  { text: '肝性脑病', link: '/InternalMedicine/Medicine1/Digestive/HepaticEncephalopathy' },
-                  { text: '原发性肝癌', link: '/InternalMedicine/Medicine1/Digestive/HepatocellularCarcinoma' },
-                  { text: '肠结核与结核性腹膜炎', link: '/InternalMedicine/Medicine1/Digestive/IntestinalTuberculosis' },
+                  { text: '肠结核和结核性腹膜炎', link: '/InternalMedicine/Medicine1/Digestive/IntestinalTuberculosis' },
                   { text: '炎症性肠病', link: '/InternalMedicine/Medicine1/Digestive/InflammatoryBowelDisease' },
-                  { text: '急性胰腺炎', link: '/InternalMedicine/Medicine1/Digestive/AcutePancreatitis' },
+                  { text: '肝硬化', link: '/InternalMedicine/Medicine1/Digestive/Cirrhosis' },
+                  { text: '原发性肝癌', link: '/InternalMedicine/Medicine1/Digestive/HepatocellularCarcinoma' },
+                  { text: '胰腺炎', link: '/InternalMedicine/Medicine1/Digestive/AcutePancreatitis' },
                   { text: '消化道出血', link: '/InternalMedicine/Medicine1/Digestive/GastrointestinalBleeding' }
                 ]
               }
@@ -271,24 +270,28 @@ for(var i=0;i<wrappers.length;i++){
         collapsed: true,
         items: [
           {
-            text: '概述',
-            items: [
-              { text: '外科概述', link: '/Surgery/Overview/MemorizationTips' }
-            ]
-          },
-          {
             text: '外科1',
             collapsed: true,
             items: [
-              { text: '水电解质代谢紊乱', link: '/Surgery/Surgery1/WaterElectrolyteBalance' },
-              { text: '外科感染', link: '/Surgery/Surgery1/Infection' },
-              { text: '烧伤与冻伤', link: '/Surgery/Surgery1/Burns' },
-              { text: '创伤', link: '/Surgery/Surgery1/Trauma' },
-              { text: '肿瘤', link: '/Surgery/Surgery1/Tumors' },
-              { text: '移植', link: '/Surgery/Surgery1/Transplant' },
-              { text: '外科营养', link: '/Surgery/Surgery1/Nutrition' },
-              { text: '围术期处理', link: '/Surgery/Surgery1/Perioperative' },
-              { text: '休克', link: '/Surgery/Surgery1/Shock' }
+              {
+                text: '第一篇 外科学基础',
+                items: [
+                  { text: '水电解质代谢紊乱', link: '/Surgery/Surgery1/BasicPrinciples/WaterElectrolyteBalance' },
+                  { text: '休克', link: '/Surgery/Surgery1/BasicPrinciples/Shock' },
+                  { text: '外科营养', link: '/Surgery/Surgery1/BasicPrinciples/Nutrition' },
+                  { text: '外科感染', link: '/Surgery/Surgery1/BasicPrinciples/Infection' },
+                  { text: '创伤', link: '/Surgery/Surgery1/BasicPrinciples/Trauma' },
+                  { text: '烧伤与冻伤', link: '/Surgery/Surgery1/BasicPrinciples/Burns' },
+                  { text: '肿瘤', link: '/Surgery/Surgery1/BasicPrinciples/Tumors' },
+                  { text: '移植', link: '/Surgery/Surgery1/BasicPrinciples/Transplant' }
+                ]
+              },
+              {
+                text: '第二篇 麻醉与围手术期处理',
+                items: [
+                  { text: '围手术期处理', link: '/Surgery/Surgery1/AnesthesiaPerioperative/Perioperative' }
+                ]
+              }
             ]
           },
           {
@@ -296,39 +299,53 @@ for(var i=0;i<wrappers.length;i++){
             collapsed: true,
             items: [
               {
-                text: '普外科',
+                text: '第四篇 颈部与乳腺外科',
                 items: [
-                  { text: '乳房疾病', link: '/Surgery/Surgery2/GeneralSurgery/BreastDisease' },
-                  { text: '颈部疾病（甲状腺）', link: '/Surgery/Surgery2/GeneralSurgery/ThyroidDisease' },
-                  { text: '周围血管和淋巴管疾病', link: '/Surgery/Surgery2/GeneralSurgery/PeripheralVascularDisease' },
-                  { text: '急性化脓性腹膜炎', link: '/Surgery/Surgery2/GeneralSurgery/AcutePeritonitis' },
-                  { text: '腹部损伤', link: '/Surgery/Surgery2/GeneralSurgery/AbdominalInjury' },
-                  { text: '腹外疝', link: '/Surgery/Surgery2/GeneralSurgery/Hernia' },
-                  { text: '阑尾疾病', link: '/Surgery/Surgery2/GeneralSurgery/AppendicealDisease' },
-                  { text: '胃十二指肠疾病', link: '/Surgery/Surgery2/GeneralSurgery/GastroduodenalDisease' },
-                  { text: '外科微创技术', link: '/Surgery/Surgery2/GeneralSurgery/MinimallyInvasiveSurgery' },
-                  { text: '小肠疾病（肠梗阻）', link: '/Surgery/Surgery2/GeneralSurgery/IntestinalObstruction' },
-                  { text: '结、直肠与肛管疾病', link: '/Surgery/Surgery2/GeneralSurgery/ColorectalDisease' },
-                  { text: '胆道疾病', link: '/Surgery/Surgery2/GeneralSurgery/BiliaryDisease' },
-                  { text: '肝疾病', link: '/Surgery/Surgery2/GeneralSurgery/LiverDisease' },
-                  { text: '门静脉高压症', link: '/Surgery/Surgery2/GeneralSurgery/PortalHypertension' },
-                  { text: '胰腺疾病', link: '/Surgery/Surgery2/GeneralSurgery/PancreaticDisease' }
+                  { text: '颈部疾病', link: '/Surgery/Surgery2/NeckBreastSurgery/NeckDisease' },
+                  { text: '乳房疾病', link: '/Surgery/Surgery2/NeckBreastSurgery/BreastDisease' }
                 ]
               },
               {
-                text: '骨科',
+                text: '第六篇 心脏与血管外科',
                 items: [
-                  { text: '骨折概论', link: '/Surgery/Surgery2/Orthopedics/FractureOverview' },
-                  { text: '上肢骨、关节损伤', link: '/Surgery/Surgery2/Orthopedics/UpperLimbInjury' },
-                  { text: '手外伤及断肢（指）再植', link: '/Surgery/Surgery2/Orthopedics/HandTrauma' },
-                  { text: '下肢骨、关节损伤', link: '/Surgery/Surgery2/Orthopedics/LowerLimbInjury' },
-                  { text: '脊柱、脊髓损伤和骨盆、髋臼骨折', link: '/Surgery/Surgery2/Orthopedics/SpinePelvisFracture' },
+                  { text: '主动脉疾病', link: '/Surgery/Surgery2/CardiovascularSurgery/AorticDisease' },
+                  { text: '周围血管与淋巴疾病', link: '/Surgery/Surgery2/CardiovascularSurgery/PeripheralVascularDisease' }
+                ]
+              },
+              {
+                text: '第七篇 腹部外科',
+                items: [
+                  { text: '腹外疝', link: '/Surgery/Surgery2/AbdominalSurgery/Hernia' },
+                  { text: '腹部损伤', link: '/Surgery/Surgery2/AbdominalSurgery/AbdominalInjury' },
+                  { text: '急性化脓性腹膜炎', link: '/Surgery/Surgery2/AbdominalSurgery/AcutePeritonitis' },
+                  { text: '胃十二指肠疾病', link: '/Surgery/Surgery2/AbdominalSurgery/GastroduodenalDisease' },
+                  { text: '小肠疾病', link: '/Surgery/Surgery2/AbdominalSurgery/SmallIntestineDisease' },
+                  { text: '阑尾疾病', link: '/Surgery/Surgery2/AbdominalSurgery/AppendicealDisease' },
+                  { text: '结直肠与肛管疾病', link: '/Surgery/Surgery2/AbdominalSurgery/ColorectalDisease' },
+                  { text: '肝疾病', link: '/Surgery/Surgery2/AbdominalSurgery/LiverDisease' },
+                  { text: '门静脉高压症', link: '/Surgery/Surgery2/AbdominalSurgery/PortalHypertension' },
+                  { text: '胆道疾病', link: '/Surgery/Surgery2/AbdominalSurgery/BiliaryDisease' },
+                  { text: '胰腺疾病', link: '/Surgery/Surgery2/AbdominalSurgery/PancreaticDisease' },
+                  { text: '脾疾病', link: '/Surgery/Surgery2/AbdominalSurgery/SpleenDisease' },
+                  { text: '消化道大出血', link: '/Surgery/Surgery2/AbdominalSurgery/GastrointestinalHemorrhage' }
+                ]
+              },
+              {
+                text: '第九篇 骨科',
+                items: [
                   { text: '运动系统畸形', link: '/Surgery/Surgery2/Orthopedics/MusculoskeletalDeformity' },
+                  { text: '骨折概论', link: '/Surgery/Surgery2/Orthopedics/FractureOverview' },
+                  { text: '上肢骨关节损伤', link: '/Surgery/Surgery2/Orthopedics/UpperLimbInjury' },
+                  { text: '手外伤及断肢（指）再植', link: '/Surgery/Surgery2/Orthopedics/HandTrauma' },
+                  { text: '下肢骨关节损伤', link: '/Surgery/Surgery2/Orthopedics/LowerLimbInjury' },
+                  { text: '脊柱脊髓损伤', link: '/Surgery/Surgery2/Orthopedics/SpinePelvisFracture' },
+                  { text: '骨盆与髋臼骨折', link: '/Surgery/Surgery2/Orthopedics/SpinePelvisFracture' },
+                  { text: '周围神经损伤', link: '/Surgery/Surgery2/Orthopedics/PeripheralNerveInjury' },
+                  { text: '运动系统慢性损伤', link: '/Surgery/Surgery2/Orthopedics/ChronicMusculoskeletalInjury' },
                   { text: '股骨头坏死', link: '/Surgery/Surgery2/Orthopedics/FemoralHeadNecrosis' },
-                  { text: '颈腰椎退变性疾病', link: '/Surgery/Surgery2/Orthopedics/CervicalLumbarDegeneration' },
+                  { text: '颈腰椎退行性疾病', link: '/Surgery/Surgery2/Orthopedics/CervicalLumbarDegeneration' },
                   { text: '骨与关节化脓性感染', link: '/Surgery/Surgery2/Orthopedics/PyogenicInfection' },
                   { text: '骨与关节结核', link: '/Surgery/Surgery2/Orthopedics/BoneJointTuberculosis' },
-                  { text: '运动系统慢性损伤', link: '/Surgery/Surgery2/Orthopedics/ChronicMusculoskeletalInjury' },
                   { text: '非化脓性关节炎', link: '/Surgery/Surgery2/Orthopedics/NonPyogenicArthritis' },
                   { text: '骨肿瘤', link: '/Surgery/Surgery2/Orthopedics/BoneTumor' }
                 ]
