@@ -79,7 +79,8 @@ for(var i=0;i<wrappers.length;i++){
         text: '总论',
         collapsed: true,
         items: [
-          { text: '常见医学英语', link: '/General/MedicalEnglish' }
+          { text: '常见医学英语', link: '/General/MedicalEnglish' },
+          { text: '周期性发作疾病汇总', link: '/General/PeriodicDiseases' }
         ]
       },
       {
@@ -273,6 +274,7 @@ for(var i=0;i<wrappers.length;i++){
             text: '外科1',
             collapsed: true,
             items: [
+              { text: '记忆口诀汇总', link: '/Surgery/Overview/MemorizationTips' },
               {
                 text: '第一篇 外科学基础',
                 items: [

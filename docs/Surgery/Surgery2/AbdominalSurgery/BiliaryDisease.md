@@ -61,3 +61,5 @@ title: 12. 胆道疾病
 ## 胆道蛔虫症
 - 症状和体征分离（钻顶样绞痛但体征轻）
 - 非手术治疗为主
+
+> 🔄 **胆道出血**是周期性发作疾病之一（每1~2周发作一次，胆绞痛+黄疸+消化道出血三联征），详见 [消化道大出血](/Surgery/Surgery2/AbdominalSurgery/GastrointestinalHemorrhage)
