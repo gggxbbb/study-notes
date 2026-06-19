@@ -23,7 +23,7 @@ hero:
       link: /InternalMedicine/Medicine1/Respiratory/RespiratoryOverview
     - theme: alt
       text: 外科
-      link: /Surgery/Surgery2/GeneralSurgery/BreastDisease
+      link: /Surgery/Surgery2/NeckBreastSurgery/NeckDisease
     - theme: alt
       text: 麻醉设备学
       link: /AnestheticEquipment/BasicKnowledge

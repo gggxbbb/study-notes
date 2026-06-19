@@ -71,8 +71,8 @@ for(var i=0;i<wrappers.length;i++){
       { text: '病理生理学', link: '/Pathophysiology/Introduction' },
       { text: '诊断学', link: '/Diagnostics/CommonSymptoms' },
       { text: '麻醉设备学', link: '/AnestheticEquipment/BasicKnowledge' },
-      { text: '内科学', link: '/InternalMedicine/Medicine1/Respiratory/' },
-      { text: '外科学', link: '/Surgery/Surgery2/' }
+      { text: '内科学', link: '/InternalMedicine/Medicine1/Respiratory/RespiratoryOverview' },
+      { text: '外科学', link: '/Surgery/Surgery2/NeckBreastSurgery/NeckDisease' }
     ],
     sidebar: [
       {
@@ -271,10 +271,17 @@ for(var i=0;i<wrappers.length;i++){
         collapsed: true,
         items: [
           {
-            text: '外科1',
+            text: '概述',
             collapsed: true,
             items: [
               { text: '记忆口诀汇总', link: '/Surgery/Overview/MemorizationTips' },
+              { text: '危象鉴别', link: '/Surgery/Overview/CrisisComparison' }
+            ]
+          },
+          {
+            text: '外科1',
+            collapsed: true,
+            items: [
               {
                 text: '第一篇 外科学基础',
                 items: [
