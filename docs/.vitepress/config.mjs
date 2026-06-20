@@ -275,7 +275,8 @@ for(var i=0;i<wrappers.length;i++){
             collapsed: true,
             items: [
               { text: '记忆口诀汇总', link: '/Surgery/Overview/MemorizationTips' },
-              { text: '危象鉴别', link: '/Surgery/Overview/CrisisComparison' }
+              { text: '危象鉴别', link: '/Surgery/Overview/CrisisComparison' },
+              { text: '消化道X线征', link: '/Surgery/Overview/GIXraySigns' }
             ]
           },
           {
