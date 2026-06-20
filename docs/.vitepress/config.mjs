@@ -327,6 +327,7 @@ for(var i=0;i<wrappers.length;i++){
                 items: [
                   { text: '腹外疝', link: '/Surgery/Surgery2/AbdominalSurgery/Hernia' },
                   { text: '腹部损伤', link: '/Surgery/Surgery2/AbdominalSurgery/AbdominalInjury' },
+                  { text: '急腹症', link: '/Surgery/Surgery2/AbdominalSurgery/AcuteAbdomen' },
                   { text: '急性化脓性腹膜炎', link: '/Surgery/Surgery2/AbdominalSurgery/AcutePeritonitis' },
                   { text: '胃十二指肠疾病', link: '/Surgery/Surgery2/AbdominalSurgery/GastroduodenalDisease' },
                   { text: '小肠疾病', link: '/Surgery/Surgery2/AbdominalSurgery/SmallIntestineDisease' },
