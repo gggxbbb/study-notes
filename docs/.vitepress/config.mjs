@@ -24,7 +24,15 @@ for(var i=0;i<wrappers.length;i++){
   var w=wrappers[i],t=w.querySelector('table');
   if(t&&t.scrollWidth>w.clientWidth+1)t.style.whiteSpace='nowrap';
 }
-});`],
+}());`],
+    ['script', {}, `(function(){
+var ob=new MutationObserver(function(){
+  var el=document.querySelector('.VPSidebar .is-active');
+  if(el)el.scrollIntoView({block:'center',behavior:'instant'});
+});
+var sb=document.querySelector('.VPSidebar');
+if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter:['class']});
+})();`],
   ],
   markdown: {
     lineNumbers: true,
