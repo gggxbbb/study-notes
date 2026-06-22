@@ -18,7 +18,7 @@ export default defineConfig({
     ['style', {}, `table { display: block; overflow-x: auto; }
 .vp-doc table { display: block; overflow-x: auto; }
 .vp-doc .vp-table-wrapper { overflow-x: auto; }
-.vp-doc svg { max-width: 100%; height: auto; }`],
+.vp-doc svg { display: block; height: auto; }`],
     ['script', {}, `document.addEventListener('DOMContentLoaded',function(){
 var wrappers=document.querySelectorAll('.vp-doc .vp-table-wrapper');
 for(var i=0;i<wrappers.length;i++){
