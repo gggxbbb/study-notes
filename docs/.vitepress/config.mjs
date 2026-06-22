@@ -18,7 +18,31 @@ export default defineConfig({
     ['style', {}, `table { display: block; overflow-x: auto; }
 .vp-doc table { display: block; overflow-x: auto; }
 .vp-doc .vp-table-wrapper { overflow-x: auto; }
-.vp-doc svg { display: block; height: auto; }`],
+.vp-doc svg { display: block; }`],
+    ['script', {}, `(function(){
+function fitSvgs() {
+  var svgs = document.querySelectorAll('.vp-doc svg');
+  for (var i = 0; i < svgs.length; i++) {
+    var s = svgs[i];
+    if (s.hasAttribute('data-fitted')) continue;
+    var vb = s.getAttribute('viewBox');
+    if (!vb) { s.style.maxWidth = '100%'; s.style.height = 'auto'; s.setAttribute('data-fitted','1'); continue; }
+    var parts = vb.split(/\\s+/);
+    var vbW = parseFloat(parts[2]), vbH = parseFloat(parts[3]);
+    if (!vbW || !vbH) { s.style.maxWidth = '100%'; s.style.height = 'auto'; s.setAttribute('data-fitted','1'); continue; }
+    var ratio = vbH / vbW;
+    var w = s.parentElement.clientWidth;
+    if (!w) w = document.querySelector('.vp-doc').clientWidth;
+    s.setAttribute('width', w);
+    s.setAttribute('height', Math.round(w * ratio));
+    s.removeAttribute('style');
+    s.setAttribute('data-fitted','1');
+  }
+}
+fitSvgs();
+var ob = new MutationObserver(function() { fitSvgs(); });
+ob.observe(document.body, { childList: true, subtree: true });
+})();`],
     ['script', {}, `document.addEventListener('DOMContentLoaded',function(){
 var wrappers=document.querySelectorAll('.vp-doc .vp-table-wrapper');
 for(var i=0;i<wrappers.length;i++){
