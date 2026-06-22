@@ -222,7 +222,8 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
             items: [
               { text: '跨系统对比', link: '/InternalMedicine/Overview/CrossSystemComparison' },
               { text: '诊断公式汇总', link: '/InternalMedicine/Overview/DiagnosticFormulas' },
-              { text: '记忆口诀汇总', link: '/InternalMedicine/Overview/MemorizationTips' }
+              { text: '记忆口诀汇总', link: '/InternalMedicine/Overview/MemorizationTips' },
+              { text: '常考知识点汇总', link: '/InternalMedicine/Overview/ExamKeyPoints' }
             ]
           },
           {
@@ -253,7 +254,9 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
                   { text: '动脉粥样硬化和冠心病', link: '/InternalMedicine/Medicine1/Circulatory/CoronaryHeartDisease' },
                   { text: '高血压', link: '/InternalMedicine/Medicine1/Circulatory/Hypertension' },
                   { text: '心肌疾病', link: '/InternalMedicine/Medicine1/Circulatory/MyocarditisCardiomyopathy' },
-                  { text: '心脏瓣膜病', link: '/InternalMedicine/Medicine1/Circulatory/ValvularHeartDisease' }
+                  { text: '心脏瓣膜病', link: '/InternalMedicine/Medicine1/Circulatory/ValvularHeartDisease' },
+                  { text: '心包疾病', link: '/InternalMedicine/Medicine1/Circulatory/PericardialDisease' },
+                  { text: '感染性心内膜炎', link: '/InternalMedicine/Medicine1/Circulatory/InfectiveEndocarditis' }
                 ]
               },
               {
@@ -266,6 +269,7 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
                   { text: '炎症性肠病', link: '/InternalMedicine/Medicine1/Digestive/InflammatoryBowelDisease' },
                   { text: '肝硬化', link: '/InternalMedicine/Medicine1/Digestive/Cirrhosis' },
                   { text: '原发性肝癌', link: '/InternalMedicine/Medicine1/Digestive/HepatocellularCarcinoma' },
+                  { text: '肝性脑病', link: '/InternalMedicine/Medicine1/Digestive/HepaticEncephalopathy' },
                   { text: '胰腺炎', link: '/InternalMedicine/Medicine1/Digestive/AcutePancreatitis' },
                   { text: '消化道出血', link: '/InternalMedicine/Medicine1/Digestive/GastrointestinalBleeding' }
                 ]
