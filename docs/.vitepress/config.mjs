@@ -255,8 +255,8 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
                   { text: '高血压', link: '/InternalMedicine/Medicine1/Circulatory/Hypertension' },
                   { text: '心肌疾病', link: '/InternalMedicine/Medicine1/Circulatory/MyocarditisCardiomyopathy' },
                   { text: '心脏瓣膜病', link: '/InternalMedicine/Medicine1/Circulatory/ValvularHeartDisease' },
-                  { text: '心包疾病', link: '/InternalMedicine/Medicine1/Circulatory/PericardialDisease' },
-                  { text: '感染性心内膜炎', link: '/InternalMedicine/Medicine1/Circulatory/InfectiveEndocarditis' }
+                  { text: '感染性心内膜炎', link: '/InternalMedicine/Medicine1/Circulatory/InfectiveEndocarditis' },
+                  { text: '心包疾病', link: '/InternalMedicine/Medicine1/Circulatory/PericardialDisease' }
                 ]
               },
               {
