@@ -75,7 +75,7 @@ title: 1. 心瓣膜病
 
 ### 并发症处理
 
-<svg width="420" height="280" xmlns="http://www.w3.org/2000/svg">
+<svg width="420" height="280" viewBox="0 0 420 280" xmlns="http://www.w3.org/2000/svg">
   <!-- 标题 -->
   <text x="210" y="24" text-anchor="middle" font-size="16" font-weight="bold">二尖瓣狭窄并发</text>
   <!-- 三条分支线 -->
@@ -236,7 +236,7 @@ title: 1. 心瓣膜病
 
 ### 杂音形态示意
 
-<svg width="420" height="240" xmlns="http://www.w3.org/2000/svg">
+<svg width="420" height="240" viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg">
   <polyline points="40,200 120,120" stroke="#c82423" stroke-width="2.5" fill="none"/>
   <polyline points="120,120 220,120" stroke="#222222" stroke-width="2.5" fill="none"/>
   <polyline points="220,120 280,60 330,130" stroke="#008833" stroke-width="2.5" fill="none"/>

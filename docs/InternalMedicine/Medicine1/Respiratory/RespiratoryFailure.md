@@ -108,23 +108,23 @@ title: 7. 呼吸衰竭
 > **记忆**：代酸 = 高高酸、低低碱；呼酸 = 低高酸、高低碱。
 
 > **坐标图记忆法**：纵轴 K（↑上高 ↓下低），横轴 Cl（→右高 ←左低）
->
-> <svg width="420" height="420" xmlns="http://www.w3.org/2000/svg">
->   <!-- 坐标轴 -->
->   <line x1="210" y1="30" x2="210" y2="390" stroke="#dd2222" stroke-width="3"/>
->   <line x1="30" y1="210" x2="390" y2="210" stroke="#dd2222" stroke-width="3"/>
->   <!-- 箭头 -->
->   <path d="M210 30 L200 45 M210 30 L220 45" stroke="#dd2222" stroke-width="3" fill="none"/>
->   <path d="M390 210 L375 200 M390 210 L375 220" stroke="#dd2222" stroke-width="3" fill="none"/>
->   <!-- 坐标轴标注，纵轴K，横轴Cl -->
->   <text x="232" y="48" font-size="32" fill="#dd2222">K</text>
->   <text x="402" y="236" font-size="32" fill="#dd2222">Cl</text>
->   <!-- 象限文字 -->
->   <text x="90" y="160" font-size="36">呼酸</text>
->   <text x="290" y="160" font-size="36">代酸</text>
->   <text x="80" y="330" font-size="36">代碱</text>
->   <text x="285" y="340" font-size="36">呼碱</text>
-> </svg>
+
+<svg width="420" height="420" viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- 坐标轴 -->
+  <line x1="210" y1="30" x2="210" y2="390" stroke="#dd2222" stroke-width="3"/>
+  <line x1="30" y1="210" x2="390" y2="210" stroke="#dd2222" stroke-width="3"/>
+  <!-- 箭头 -->
+  <path d="M210 30 L200 45 M210 30 L220 45" stroke="#dd2222" stroke-width="3" fill="none"/>
+  <path d="M390 210 L375 200 M390 210 L375 220" stroke="#dd2222" stroke-width="3" fill="none"/>
+  <!-- 坐标轴标注，纵轴K，横轴Cl -->
+  <text x="232" y="48" font-size="32" fill="#dd2222">K</text>
+  <text x="402" y="236" font-size="32" fill="#dd2222">Cl</text>
+  <!-- 象限文字 -->
+  <text x="90" y="160" font-size="36">呼酸</text>
+  <text x="290" y="160" font-size="36">代酸</text>
+  <text x="80" y="330" font-size="36">代碱</text>
+  <text x="285" y="340" font-size="36">呼碱</text>
+</svg>
 
 ### 酸碱失衡阶段
 
