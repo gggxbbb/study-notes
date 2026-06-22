@@ -75,19 +75,42 @@ title: 1. 心瓣膜病
 
 ### 并发症处理
 
-```
-              二尖瓣狭窄并发
-                    │
-     ┌──────────────┼──────────────┐
-     ▼              ▼              ▼
-  急性肺水肿      急性房颤       慢性房颤
-     │              │              │
-     ▼         ┌────┴────┐    ┌───┴───┐
- 首选呋塞米   血压正常   血压降低  │
- 严禁洋地黄     │        │    ├── 介入治疗二狭
-               ▼        ▼    ├── 电复律或药物复律
-           首选洋地黄  首选电复律 └── 药物控制心室率
-```
+<svg width="420" height="280" xmlns="http://www.w3.org/2000/svg">
+  <!-- 标题 -->
+  <text x="210" y="24" text-anchor="middle" font-size="16" font-weight="bold">二尖瓣狭窄并发</text>
+  <!-- 三条分支线 -->
+  <line x1="210" y1="36" x2="210" y2="52" stroke="#333" stroke-width="2"/>
+  <line x1="70" y1="52" x2="350" y2="52" stroke="#333" stroke-width="2"/>
+  <line x1="70" y1="52" x2="70" y2="68" stroke="#333" stroke-width="2"/>
+  <line x1="210" y1="52" x2="210" y2="68" stroke="#333" stroke-width="2"/>
+  <line x1="350" y1="52" x2="350" y2="68" stroke="#333" stroke-width="2"/>
+  <!-- 三个分支标签 -->
+  <text x="70" y="84" text-anchor="middle" font-size="14" fill="#c82423">急性肺水肿</text>
+  <text x="210" y="84" text-anchor="middle" font-size="14" fill="#c82423">急性房颤</text>
+  <text x="350" y="84" text-anchor="middle" font-size="14" fill="#c82423">慢性房颤</text>
+  <!-- 左分支：急性肺水肿 -->
+  <line x1="70" y1="92" x2="70" y2="108" stroke="#333" stroke-width="1.5"/>
+  <text x="70" y="124" text-anchor="middle" font-size="13" fill="#008833">首选呋塞米</text>
+  <text x="70" y="142" text-anchor="middle" font-size="13" fill="#dd2222">严禁洋地黄</text>
+  <!-- 中分支：急性房颤 -->
+  <line x1="210" y1="92" x2="210" y2="108" stroke="#333" stroke-width="1.5"/>
+  <line x1="140" y1="108" x2="280" y2="108" stroke="#333" stroke-width="1.5"/>
+  <line x1="140" y1="108" x2="140" y2="124" stroke="#333" stroke-width="1.5"/>
+  <line x1="280" y1="108" x2="280" y2="124" stroke="#333" stroke-width="1.5"/>
+  <text x="140" y="140" text-anchor="middle" font-size="13">血压正常</text>
+  <text x="140" y="158" text-anchor="middle" font-size="13" fill="#008833">首选洋地黄</text>
+  <text x="280" y="140" text-anchor="middle" font-size="13">血压降低</text>
+  <text x="280" y="158" text-anchor="middle" font-size="13" fill="#008833">首选电复律</text>
+  <!-- 右分支：慢性房颤 -->
+  <line x1="350" y1="92" x2="350" y2="108" stroke="#333" stroke-width="1.5"/>
+  <text x="350" y="124" text-anchor="middle" font-size="13">介入治疗二狭</text>
+  <line x1="350" y1="132" x2="350" y2="144" stroke="#333" stroke-width="1"/>
+  <line x1="290" y1="144" x2="410" y2="144" stroke="#333" stroke-width="1"/>
+  <line x1="290" y1="144" x2="290" y2="160" stroke="#333" stroke-width="1"/>
+  <line x1="410" y1="144" x2="410" y2="160" stroke="#333" stroke-width="1"/>
+  <text x="290" y="176" text-anchor="middle" font-size="13">电复律或药物复律</text>
+  <text x="410" y="176" text-anchor="middle" font-size="13">药物控制心室率</text>
+</svg>
 
 > - **急性肺水肿**：首选**袢利尿剂（呋塞米）**，**严禁洋地黄**（单独二狭时左室充盈不足，洋地黄正性肌力无效且易中毒）
 > - **急性房颤**：血压正常 → 首选洋地黄控制心室率；血压降低 → 首选电复律

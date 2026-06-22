@@ -17,7 +17,8 @@ export default defineConfig({
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/katex.min.css' }],
     ['style', {}, `table { display: block; overflow-x: auto; }
 .vp-doc table { display: block; overflow-x: auto; }
-.vp-doc .vp-table-wrapper { overflow-x: auto; }`],
+.vp-doc .vp-table-wrapper { overflow-x: auto; }
+.vp-doc svg { max-width: 100%; height: auto; }`],
     ['script', {}, `document.addEventListener('DOMContentLoaded',function(){
 var wrappers=document.querySelectorAll('.vp-doc .vp-table-wrapper');
 for(var i=0;i<wrappers.length;i++){
