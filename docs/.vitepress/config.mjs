@@ -222,14 +222,14 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
             items: [
               { text: '跨系统对比', link: '/InternalMedicine/Overview/CrossSystemComparison' },
               { text: '诊断公式汇总', link: '/InternalMedicine/Overview/DiagnosticFormulas' },
-              { text: '记忆口诀汇总', link: '/InternalMedicine/Overview/MemorizationTips' },
-              { text: '常考知识点汇总', link: '/InternalMedicine/Overview/ExamKeyPoints' }
+              { text: '记忆口诀汇总', link: '/InternalMedicine/Overview/MemorizationTips' }
             ]
           },
           {
             text: '内科1',
             collapsed: true,
             items: [
+              { text: '常考知识点汇总', link: '/InternalMedicine/Medicine1/ExamKeyPoints' },
               {
                 text: '呼吸系统',
                 items: [
