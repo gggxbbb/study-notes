@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import katex from './markdown-it-katex-custom.js'
 import markdownItPlantUML from 'markdown-it-plantuml'
+import markmapPlugin from '@vitepress-plugin/markmap'
 import 'katex/dist/contrib/mhchem.mjs'
 
 export default defineConfig({
@@ -11,6 +12,9 @@ export default defineConfig({
   lastUpdated: false,
   metaChunk: true,
   ignoreDeadLinks: true,
+  vite: {
+    plugins: [markmapPlugin()],
+  },
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
     ['link', { rel: 'apple-touch-icon', href: '/favicon.svg' }],
