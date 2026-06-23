@@ -11,3 +11,37 @@
 - **sidebar 新增文件必须同步更新 config.mjs**
 - **ExamKeyPoints 放对应课程目录下，不放 Overview**
 - 纯口诀放 MemorizationTips，非口诀知识点放专篇
+
+## 思维导图（Markmap）
+
+使用 `@vitepress-plugin/markmap` 渲染交互式思维导图。
+
+安装：`npm install @vitepress-plugin/markmap`
+
+配置（`config.mjs`）：
+```js
+import markmapPlugin from '@vitepress-plugin/markmap'
+vite: { plugins: [markmapPlugin()] }
+```
+
+在 md 中使用：
+```markdown
+:::markmap
+---
+containerHeight: 700
+maxInitialScale: 1.2
+spacingHorizontal: 80
+---
+# 根节点
+## 二级
+### 三级
+#### 四级
+* 具体内容
+:::
+```
+
+层级设计原则：
+- 用 `#`/`##`/`###`/`####` 实现 4~5 级嵌套，用户偏好层层细化
+- 各型疾病作为分类的子层级展开
+- 每个节点放核心关键词，不需要完整句子
+- `containerHeight` 按内容量调整（400~700）
