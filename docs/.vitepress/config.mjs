@@ -317,7 +317,8 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
             items: [
               { text: '记忆口诀汇总', link: '/Surgery/Overview/MemorizationTips' },
               { text: '危象鉴别', link: '/Surgery/Overview/CrisisComparison' },
-              { text: '消化道X线征', link: '/Surgery/Overview/GIXraySigns' }
+              { text: '消化道X线征', link: '/Surgery/Overview/GIXraySigns' },
+              { text: '腹部体征鉴别', link: '/Surgery/Overview/AbdominalPhysicalSigns' }
             ]
           },
           {
