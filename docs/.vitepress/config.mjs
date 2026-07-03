@@ -2,9 +2,10 @@ import { defineConfig } from 'vitepress'
 import katex from './markdown-it-katex-custom.js'
 import markdownItPlantUML from 'markdown-it-plantuml'
 import markmapPlugin from '@vitepress-plugin/markmap'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import 'katex/dist/contrib/mhchem.mjs'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: '医学笔记',
   description: '内科学1、外科学2知识点整理',
   lang: 'zh-CN',
@@ -278,6 +279,7 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
               {
                 text: '循环系统',
                 items: [
+                  { text: '循环系统概论', link: '/InternalMedicine/Medicine1/Circulatory/CirculatoryOverview' },
                   { text: '心力衰竭', link: '/InternalMedicine/Medicine1/Circulatory/HeartFailure' },
                   { text: '心律失常', link: '/InternalMedicine/Medicine1/Circulatory/Arrhythmia' },
                   { text: '动脉粥样硬化和冠心病', link: '/InternalMedicine/Medicine1/Circulatory/CoronaryHeartDisease' },
@@ -292,6 +294,7 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
                 text: '消化系统',
                 items: [
                   { text: '消化系统概述', link: '/InternalMedicine/Medicine1/Digestive/Overview' },
+                  { text: '消化系统概论', link: '/InternalMedicine/Medicine1/Digestive/DigestiveOverview' },
                   { text: '胃炎', link: '/InternalMedicine/Medicine1/Digestive/Gastritis' },
                   { text: '消化性溃疡', link: '/InternalMedicine/Medicine1/Digestive/PepticUlcer' },
                   { text: '肠结核和结核性腹膜炎', link: '/InternalMedicine/Medicine1/Digestive/IntestinalTuberculosis' },
@@ -386,8 +389,8 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
               {
                 text: '第九篇 骨科',
                 items: [
-                  { text: '运动系统畸形', link: '/Surgery/Surgery2/Orthopedics/MusculoskeletalDeformity' },
                   { text: '骨折概论', link: '/Surgery/Surgery2/Orthopedics/FractureOverview' },
+                  { text: '运动系统畸形', link: '/Surgery/Surgery2/Orthopedics/MusculoskeletalDeformity' },
                   { text: '上肢骨关节损伤', link: '/Surgery/Surgery2/Orthopedics/UpperLimbInjury' },
                   { text: '手外伤及断肢（指）再植', link: '/Surgery/Surgery2/Orthopedics/HandTrauma' },
                   { text: '下肢骨关节损伤', link: '/Surgery/Surgery2/Orthopedics/LowerLimbInjury' },
@@ -416,6 +419,7 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
         text: '妇产科学',
         collapsed: true,
         items: [
+          { text: '妇产科口诀汇总', link: '/ObstetricsGynecology/MemorizationTips' },
           { text: '子宫内膜癌', link: '/ObstetricsGynecology/EndometrialCancer' }
         ]
       },
@@ -456,4 +460,4 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
     sidebarMenuLabel: '菜单',
     returnToTopLabel: '返回顶部',
   }
-})
+}))

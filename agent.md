@@ -10,7 +10,6 @@
 - **章节顺序必须与教材目录一致**
 - **sidebar 新增文件必须同步更新 config.mjs**
 - **ExamKeyPoints 放对应课程目录下，不放 Overview**
-- 纯口诀放 MemorizationTips，非口诀知识点放专篇
 
 ## 思维导图（Markmap）
 
