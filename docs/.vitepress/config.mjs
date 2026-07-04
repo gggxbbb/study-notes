@@ -394,8 +394,8 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
                   { text: '上肢骨关节损伤', link: '/Surgery/Surgery2/Orthopedics/UpperLimbInjury' },
                   { text: '手外伤及断肢（指）再植', link: '/Surgery/Surgery2/Orthopedics/HandTrauma' },
                   { text: '下肢骨关节损伤', link: '/Surgery/Surgery2/Orthopedics/LowerLimbInjury' },
-                  { text: '脊柱脊髓损伤', link: '/Surgery/Surgery2/Orthopedics/SpinePelvisFracture' },
-                  { text: '骨盆与髋臼骨折', link: '/Surgery/Surgery2/Orthopedics/SpinePelvisFracture' },
+                  { text: '脊柱脊髓损伤', link: '/Surgery/Surgery2/Orthopedics/SpineInjury' },
+                  { text: '骨盆与髋臼骨折', link: '/Surgery/Surgery2/Orthopedics/PelvicFracture' },
                   { text: '周围神经损伤', link: '/Surgery/Surgery2/Orthopedics/PeripheralNerveInjury' },
                   { text: '运动系统慢性损伤', link: '/Surgery/Surgery2/Orthopedics/ChronicMusculoskeletalInjury' },
                   { text: '股骨头坏死', link: '/Surgery/Surgery2/Orthopedics/FemoralHeadNecrosis' },
@@ -403,7 +403,8 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
                   { text: '骨与关节化脓性感染', link: '/Surgery/Surgery2/Orthopedics/PyogenicInfection' },
                   { text: '骨与关节结核', link: '/Surgery/Surgery2/Orthopedics/BoneJointTuberculosis' },
                   { text: '非化脓性关节炎', link: '/Surgery/Surgery2/Orthopedics/NonPyogenicArthritis' },
-                  { text: '骨肿瘤', link: '/Surgery/Surgery2/Orthopedics/BoneTumor' }
+                  { text: '骨肿瘤', link: '/Surgery/Surgery2/Orthopedics/BoneTumor' },
+                  { text: '骨科英文', link: '/Surgery/Surgery2/Orthopedics/OrthopedicEponyms' }
                 ]
               }
             ]
