@@ -404,7 +404,8 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
                   { text: '骨与关节结核', link: '/Surgery/Surgery2/Orthopedics/BoneJointTuberculosis' },
                   { text: '非化脓性关节炎', link: '/Surgery/Surgery2/Orthopedics/NonPyogenicArthritis' },
                   { text: '骨肿瘤', link: '/Surgery/Surgery2/Orthopedics/BoneTumor' },
-                  { text: '骨科英文', link: '/Surgery/Surgery2/Orthopedics/OrthopedicEponyms' }
+                  { text: '骨科英文', link: '/Surgery/Surgery2/Orthopedics/OrthopedicEponyms' },
+                  { text: '常考畸形与特殊检查', link: '/Surgery/Surgery2/Orthopedics/DeformityAndSpecialTests' }
                 ]
               }
             ]
