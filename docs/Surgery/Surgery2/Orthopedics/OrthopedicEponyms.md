@@ -4,6 +4,36 @@ title: 骨科英文
 
 # 骨科英文
 
+:::markmap
+---
+containerHeight: 700
+maxInitialScale: 1.2
+spacingHorizontal: 80
+---
+# 骨科人名体征
+## 体征与试验
+### Spurling/Eaton
+### Phalen/Tinel
+### Dugas/Hippocrates
+### Thomas/4字
+### McMurray/Apley
+### Lachman/抽屉/轴移
+### Ortolani/Barlow/Allis
+### Trendelenburg
+### Mills/Finkelstein
+### Hoffmann/Babinski
+### 直腿抬高/加强
+## 分型
+### Garden·Neer·Ficat
+### Evans·Tile·Denis
+### Schatzker·Lauge-Hansen
+### Borrmann·Dukes·TNM
+## 术式
+### ACDF·PFNA·ORIF
+### Bassini·McVay·Shouldice
+### Whipple·Miles·Dixon
+:::
+
 ## 体征与试验
 
 | 名称 | 内容 | 关联疾病 |

@@ -4,6 +4,34 @@ title: 脊柱、脊髓损伤
 
 # 脊柱、脊髓损伤
 
+:::markmap
+---
+containerHeight: 700
+maxInitialScale: 1.2
+spacingHorizontal: 80
+---
+# 脊柱脊髓损伤
+## 脊柱骨折
+### 胸腰段(T10~L2)最常见
+### Denis三柱
+### 压缩/爆裂/Chance
+## 颈椎损伤
+### Jefferson：C1
+### Hangman：C2
+### 齿状突骨折
+## 脊髓损伤
+### ASIA分级 A-E
+### 完全性vs不完全性
+### 中央/前/后/Brown-Séquard
+### 脊髓休克
+## 治疗
+### 甲泼尼龙冲击
+### 手术减压·固定
+### 康复
+## 急救
+### 脊柱板·轴向搬运
+:::
+
 ## 脊柱骨折
 - **三柱理论**（Ferguson）：
   | 柱 | 构成 |

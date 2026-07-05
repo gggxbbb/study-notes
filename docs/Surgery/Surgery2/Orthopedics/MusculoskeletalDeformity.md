@@ -4,6 +4,32 @@ title: 6. 运动系统畸形
 
 # 运动系统畸形
 
+:::markmap
+---
+containerHeight: 700
+maxInitialScale: 1.2
+spacingHorizontal: 80
+---
+# 运动系统畸形
+## 先天性肌性斜颈
+### 胸锁乳突肌纤维化
+### 生后2周发现
+### 保守→1岁后手术
+## 先天性髋脱位(CDH)
+### Ortolani/Barlow(+)
+### Allis征(+)
+### Trendelenburg(+)
+### <6月：Pavlik吊带
+### >6月：闭合/切开复位
+## 脊柱侧凸
+### Cobb角>10°
+### Cobb>40°→手术
+### Risser征(骨成熟度)
+## 先天性马蹄内翻足
+### 内收·内翻·跖屈
+### Ponseti系列石膏(金标准)
+:::
+
 > ## 肌力分级（0~5 级）
 >
 > | 分级 | 标准 | 生活化记忆 |

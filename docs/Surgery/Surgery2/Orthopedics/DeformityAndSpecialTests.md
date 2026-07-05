@@ -4,6 +4,37 @@ title: 常考畸形、特殊检查试验及体征的临床意义
 
 # 常考畸形、特殊检查试验及体征的临床意义
 
+:::markmap
+---
+containerHeight: 700
+maxInitialScale: 1.2
+spacingHorizontal: 80
+---
+# 常考畸形与特殊检查
+## 上肢
+### Dugas：肩脱位
+### 肘后三角：脱位vs髁上骨折
+### Mills：网球肘
+### Finkelstein：腱鞘炎
+### Phalen/Tinel：腕管
+### Allen：尺桡动脉
+## 下肢
+### Thomas：髋屈曲畸形
+### 4字试验：髋/骶髂
+### Allis：髋脱位
+### Ortolani/Barlow：CDH
+### Trendelenburg：臀中肌
+### McMurray：半月板
+### Apley：半月板
+### 抽屉/Lachman：交叉韧带
+### 轴移：ACL
+## 脊柱
+### 拾物试验：脊柱结核
+### Eaton/Spurling：颈椎病
+### Hoffmann：脊髓型
+### 直腿抬高：腰椎间盘
+:::
+
 ## 运动系统畸形
 
 ### 先天性髋发育不全
