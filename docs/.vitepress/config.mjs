@@ -353,6 +353,7 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
             text: '外科2',
             collapsed: true,
             items: [
+              { text: '体征汇总', link: '/Surgery/Surgery2/PhysicalSigns' },
               {
                 text: '第四篇 颈部与乳腺外科',
                 items: [
