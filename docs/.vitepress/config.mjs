@@ -355,6 +355,7 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
             items: [
               { text: '体征汇总', link: '/Surgery/Surgery2/PhysicalSigns' },
               { text: '数字与时间汇总', link: '/Surgery/Surgery2/NumbersAndTiming' },
+              { text: '最高频考点 — 最', link: '/Surgery/Surgery2/MostCommon' },
               {
                 text: '第四篇 颈部与乳腺外科',
                 items: [
