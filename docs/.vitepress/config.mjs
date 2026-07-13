@@ -132,7 +132,149 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
       {
         text: '人体系统解剖学',
         collapsed: true,
-        items: []
+        items: [
+          { text: '绪论', link: '/SystematicAnatomy/Introduction' },
+          {
+            text: '第一篇 运动系',
+            items: [
+              {
+                text: '骨骼系统',
+                collapsed: true,
+                items: [
+                  { text: '总论', link: '/SystematicAnatomy/SkeletalSystem/Overview' },
+                  { text: '躯干骨', link: '/SystematicAnatomy/SkeletalSystem/TrunkBones' },
+                  { text: '上肢骨', link: '/SystematicAnatomy/SkeletalSystem/UpperLimbBones' },
+                  { text: '下肢骨', link: '/SystematicAnatomy/SkeletalSystem/LowerLimbBones' },
+                  { text: '颅骨', link: '/SystematicAnatomy/SkeletalSystem/Skull' }
+                ]
+              },
+              {
+                text: '骨连结系统',
+                collapsed: true,
+                items: [
+                  { text: '总论', link: '/SystematicAnatomy/Arthrology/Overview' },
+                  { text: '躯干骨的连结', link: '/SystematicAnatomy/Arthrology/TrunkJoints' },
+                  { text: '上肢骨的连结', link: '/SystematicAnatomy/Arthrology/UpperLimbJoints' },
+                  { text: '下肢骨的连结', link: '/SystematicAnatomy/Arthrology/LowerLimbJoints' },
+                  { text: '颅的连结', link: '/SystematicAnatomy/Arthrology/SkullJoints' }
+                ]
+              },
+              {
+                text: '肌肉系统',
+                collapsed: true,
+                items: [
+                  { text: '总论', link: '/SystematicAnatomy/MuscularSystem/Overview' },
+                  { text: '躯干肌', link: '/SystematicAnatomy/MuscularSystem/TrunkMuscles' },
+                  { text: '头颈肌', link: '/SystematicAnatomy/MuscularSystem/HeadNeckMuscles' },
+                  { text: '上肢肌', link: '/SystematicAnatomy/MuscularSystem/UpperLimbMuscles' },
+                  { text: '下肢肌', link: '/SystematicAnatomy/MuscularSystem/LowerLimbMuscles' }
+                ]
+              }
+            ]
+          },
+          {
+            text: '第二篇 内脏系',
+            items: [
+              { text: '内脏总论', link: '/SystematicAnatomy/VisceraOverview' },
+              {
+                text: '消化系统',
+                collapsed: true,
+                items: [
+                  { text: '消化管', link: '/SystematicAnatomy/DigestiveSystem/DigestiveTract' },
+                  { text: '大消化腺', link: '/SystematicAnatomy/DigestiveSystem/DigestiveGlands' }
+                ]
+              },
+              {
+                text: '呼吸系统',
+                collapsed: true,
+                items: [
+                  { text: '呼吸道', link: '/SystematicAnatomy/RespiratorySystem/RespiratoryTract' },
+                  { text: '肺', link: '/SystematicAnatomy/RespiratorySystem/Lungs' },
+                  { text: '胸膜', link: '/SystematicAnatomy/RespiratorySystem/Pleura' },
+                  { text: '纵隔', link: '/SystematicAnatomy/RespiratorySystem/Mediastinum' }
+                ]
+              },
+              {
+                text: '泌尿系统',
+                collapsed: true,
+                items: [
+                  { text: '肾', link: '/SystematicAnatomy/UrinarySystem/Kidney' },
+                  { text: '输尿管道', link: '/SystematicAnatomy/UrinarySystem/UrinaryTract' }
+                ]
+              },
+              {
+                text: '生殖系统',
+                collapsed: true,
+                items: [
+                  { text: '男性生殖系统', link: '/SystematicAnatomy/ReproductiveSystem/MaleReproductive' },
+                  { text: '女性生殖系统', link: '/SystematicAnatomy/ReproductiveSystem/FemaleReproductive' },
+                  { text: '会阴与盆膈', link: '/SystematicAnatomy/ReproductiveSystem/Perineum' },
+                  { text: '腹膜', link: '/SystematicAnatomy/ReproductiveSystem/Peritoneum' }
+                ]
+              }
+            ]
+          },
+          {
+            text: '第三篇 脉管系',
+            items: [
+              {
+                text: '心血管系统',
+                collapsed: true,
+                items: [
+                  { text: '总论', link: '/SystematicAnatomy/CardiovascularSystem/Overview' },
+                  { text: '心', link: '/SystematicAnatomy/CardiovascularSystem/Heart' },
+                  { text: '动脉', link: '/SystematicAnatomy/CardiovascularSystem/Arteries' },
+                  { text: '静脉', link: '/SystematicAnatomy/CardiovascularSystem/Veins' }
+                ]
+              },
+              {
+                text: '淋巴系统',
+                collapsed: true,
+                items: [
+                  { text: '淋巴系统', link: '/SystematicAnatomy/LymphaticSystem/Overview' }
+                ]
+              }
+            ]
+          },
+          {
+            text: '第四篇 调节系',
+            items: [
+              {
+                text: '内分泌系统',
+                collapsed: true,
+                items: [
+                  { text: '内分泌腺', link: '/SystematicAnatomy/EndocrineSystem/EndocrineGlands' }
+                ]
+              },
+              {
+                text: '感受器系统',
+                collapsed: true,
+                items: [
+                  { text: '总论', link: '/SystematicAnatomy/SensorySystem/Overview' },
+                  { text: '视器', link: '/SystematicAnatomy/SensorySystem/VisualSystem' },
+                  { text: '前庭蜗器', link: '/SystematicAnatomy/SensorySystem/VestibulocochlearSystem' }
+                ]
+              },
+              {
+                text: '神经系统',
+                collapsed: true,
+                items: [
+                  { text: '总论', link: '/SystematicAnatomy/NervousSystem/Overview' },
+                  { text: '脊神经', link: '/SystematicAnatomy/NervousSystem/SpinalNerves' },
+                  { text: '脑神经', link: '/SystematicAnatomy/NervousSystem/CranialNerves' },
+                  { text: '内脏神经', link: '/SystematicAnatomy/NervousSystem/AutonomicNerves' },
+                  { text: '脊髓', link: '/SystematicAnatomy/NervousSystem/SpinalCord' },
+                  { text: '脑干', link: '/SystematicAnatomy/NervousSystem/Brainstem' },
+                  { text: '小脑', link: '/SystematicAnatomy/NervousSystem/Cerebellum' },
+                  { text: '间脑', link: '/SystematicAnatomy/NervousSystem/Diencephalon' },
+                  { text: '端脑', link: '/SystematicAnatomy/NervousSystem/Telencephalon' },
+                  { text: '主要传导通路', link: '/SystematicAnatomy/NervousSystem/Pathways' },
+                  { text: '脑和脊髓的被膜与血管', link: '/SystematicAnatomy/NervousSystem/MeningesAndVessels' }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         text: '生物化学与分子生物学',
