@@ -379,6 +379,12 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
         text: '麻醉药理学',
         collapsed: true,
         items: [
+          { text: '药理学总论', link: '/AnestheticPharmacology/GeneralPharmacology' },
+          { text: '传出神经系统药理', link: '/AnestheticPharmacology/AutonomicPharmacology' },
+          { text: '中枢神经系统药物', link: '/AnestheticPharmacology/CNSDrugs' },
+          { text: '心血管系统药物', link: '/AnestheticPharmacology/CardiovascularDrugs' },
+          { text: '内分泌及内脏系统药物', link: '/AnestheticPharmacology/VisceralEndocrineDrugs' },
+          { text: '化学治疗药物', link: '/AnestheticPharmacology/ChemotherapeuticDrugs' },
           { text: '药理学口诀', link: '/AnestheticPharmacology/Mnemonics' }
         ]
       },
