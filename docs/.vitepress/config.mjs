@@ -279,7 +279,46 @@ if(sb)ob.observe(sb,{childList:true,subtree:true,attributes:true,attributeFilter
       {
         text: '生物化学与分子生物学',
         collapsed: true,
-        items: []
+        items: [
+          { text: '绪论', link: '/Biochemistry/Introduction' },
+          {
+            text: '生物大分子',
+            items: [
+              { text: '蛋白质的结构与功能', link: '/Biochemistry/Protein' },
+              { text: '酶与酶促反应', link: '/Biochemistry/Enzymes' },
+              { text: '核酸的结构与功能', link: '/Biochemistry/NucleicAcids' }
+            ]
+          },
+          {
+            text: '物质代谢',
+            items: [
+              { text: '糖代谢', link: '/Biochemistry/SugarMetabolism' },
+              { text: '脂质代谢', link: '/Biochemistry/LipidMetabolism' },
+              { text: '氨基酸代谢', link: '/Biochemistry/AminoAcidMetabolism' },
+              { text: '生物氧化', link: '/Biochemistry/BiologicalOxidation' },
+              { text: '核苷酸代谢', link: '/Biochemistry/NucleotideMetabolism' }
+            ]
+          },
+          {
+            text: '遗传信息传递',
+            items: [
+              { text: 'DNA的生物合成', link: '/Biochemistry/DNABiosynthesis' },
+              { text: 'DNA损伤和损伤修复', link: '/Biochemistry/DNARepair' },
+              { text: 'RNA的生物合成', link: '/Biochemistry/RNABiosynthesis' },
+              { text: '蛋白质的生物合成', link: '/Biochemistry/ProteinBiosynthesis' },
+              { text: '基因表达调控', link: '/Biochemistry/GeneRegulation' }
+            ]
+          },
+          {
+            text: '专题篇',
+            items: [
+              { text: '细胞信号转导', link: '/Biochemistry/CellSignaling' },
+              { text: '基因工程', link: '/Biochemistry/GeneticEngineering' },
+              { text: '肝的生物化学', link: '/Biochemistry/LiverBiochemistry' },
+              { text: '血液的生物化学', link: '/Biochemistry/BloodBiochemistry' }
+            ]
+          }
+        ]
       },
       {
         text: '病理学',
